@@ -161,8 +161,6 @@ def rec_books_mt_rate_genres():
     else:
         print("La calificación debe estar entre 1 y 5")
 
-print(Grafo.la["To Kill a Mockingbird"][2][0])
-
 def recomendar_libros():
     presupuesto = float(input("Presupuesto: "))
     all_books=[]
